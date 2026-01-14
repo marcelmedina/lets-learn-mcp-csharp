@@ -34,8 +34,19 @@ git init
 - Connect your local project
 ```bash
 gh repo create
+-Path to local (.)
+-Repository name
+-Repository owner
+-Description
+-Visibility: Public
+-Add a remote: Yes, called origin
 ```
 - Make your first commit
+```bash 
+git add .
+git commit -m "Initial commit"
+git push
+```
 - This can be done through the VS Code Source Control panel
 - Ensure your repository is public so Copilot can access it
 
