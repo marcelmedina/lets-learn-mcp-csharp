@@ -21,13 +21,20 @@ dotnet new console -n MyMonkeyApp
 
 - Add a new .gitignore file to exclude unnecessary files from your repository by running the following command:
 
-```bash 
+```bash
+cd MyMonkeyApp
 dotnet new gitignore
 ```
 
 #### Push to GitHub
 - Create a new GitHub repository
+```bash 
+git init
+```
 - Connect your local project
+```bash
+gh repo create
+```
 - Make your first commit
 - This can be done through the VS Code Source Control panel
 - Ensure your repository is public so Copilot can access it
