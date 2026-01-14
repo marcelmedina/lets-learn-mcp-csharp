@@ -12,6 +12,11 @@ Learn to build your own MCP server from scratch by creating a lunch recommendati
 ### Create console app
 
 Create a new folder called **LunchTime** and then create a new C# console app named **LunchTimeMCP** inside of the folder. 
+```
+mkdir LunchTime
+cd LunchTime
+dotnet new console -n LunchTimeMCP
+```
 
 ### NuGet Package Installation
 Essential packages for MCP server development:
